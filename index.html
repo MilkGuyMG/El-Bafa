@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>El Bafa Website</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  body {
+    background-color: #333;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    opacity: 0;
+    animation: fadeIn 2s forwards; /* Apply fade animation */
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .title {
+    font-size: 3em;
+    margin-bottom: 20px; /* Adjust margin-bottom as needed */
+    margin-top: 10px; /* Move the title up */
+  }
+  .list {
+    text-align: center;
+    font-size: 1.5em; /* Half the size of the title */
+    font-family: 'Poppins', sans-serif; /* Match the font with the title */
+  }
+  .list-heading {
+    font-size: 1.5em; /* Half the size of the title */
+    font-weight: bold;
+  }
+  .list ul {
+    list-style-type: none; /* Remove the dots before the names */
+    padding: 0;
+  }
+</style>
+</head>
+<body>
+  <h1 class="title">El Bafa</h1>
+  <div class="list">
+    <p class="list-heading">Group Members:</p>
+    <ul>
+      <li>MilkGuyMG</li>
+      <li>Sayed</li>
+      <li>Abdullah Hamdan</li>
+      <li>Abdullah Hamdy</li>
+      <li>Abdullah Khaled</li>
+      <li>Taha</li>
+      <li>Yousef</li>
+    </ul>
+  </div>
+</body>
+</html>
